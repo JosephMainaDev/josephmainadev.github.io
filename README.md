@@ -1,6 +1,6 @@
-This repo hosts several tools built while learning [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/).
+This repo hosts several projects built while learning [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
-The tools are hosted with GitHub Pages and can be accessed here: https://josephkmaina.github.io/tools.
+The projects are hosted with GitHub Pages and can be accessed here: https://mainadotkim.github.io.
 
 Enjoy playing with the tools :stuck_out_tongue_winking_eye:
 
@@ -25,7 +25,7 @@ If you want to try out these tools in your development environment, then here we
 1. Fork this repo and clone into your machine.
 
 ```bash
-git clone https://github.com/josephkmaina/josephkmaina.github.io.git your-dir
+git clone https://github.com/mainadotkim/mainadotkim.github.io.git your-dir
 ```
 
 2. `cd` to the `your-dir` directory
