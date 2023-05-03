@@ -186,18 +186,10 @@ function calculateResistance({
 
 function getColor(value = '', tolerance = '') {
   for (const item of colorCodes) {
-<<<<<<< HEAD
     console.log(item);
     if (Object.values(item).includes(Number(value))) {
       return bgColor(item.color);
     }
-=======
-    const color = Object.values(item)
-    if (value && color.includes(Number(value))) return bgColor(item.color);
-    // temporary fix for issue #1
-    if (tolerance == '5') return bgColor('gold')
-    else if (tolerance && color.includes(Number(tolerance))) return bgColor(item.color);
->>>>>>> 0b687fc40cc46eb80161ee0e4f123740b3d72463
   }
 }
 
@@ -230,28 +222,19 @@ function OutputRow({
       >
         <span>{""}</span>
         {firstDigit ? (
-<<<<<<< HEAD
           <span className={`${getColor(firstDigit)} text-center`}>
-=======
-          <span className={`${getColor(firstDigit, '')} text-center`}>
->>>>>>> 0b687fc40cc46eb80161ee0e4f123740b3d72463
             {firstDigit}
           </span>
         ) : (
           <span>{""}</span>
         )}
         {secondDigit ? (
-<<<<<<< HEAD
           <span className={`${getColor(secondDigit)} text-center`}>
-=======
-          <span className={`${getColor(secondDigit, '')} text-center`}>
->>>>>>> 0b687fc40cc46eb80161ee0e4f123740b3d72463
             {secondDigit}
           </span>
         ) : (
           <span>{""}</span>
         )}
-<<<<<<< HEAD
         {thirdDigit ? (
           <span className={`${getColor(thirdDigit)} text-center`}>
             {thirdDigit}
@@ -263,28 +246,13 @@ function OutputRow({
         )}
         {multiplier ? (
           <span className={`${getColor(multiplier)} text-center`}>
-=======
-        {bands == 3 && thirdDigit ? (
-          <span className={`${getColor(thirdDigit,'')} text-center`}>
-            {thirdDigit}
-          </span>
-        ) : (
-          ""
-        )}
-        {multiplier ? (
-          <span className={`${getColor(multiplier, '')} text-center`}>
->>>>>>> 0b687fc40cc46eb80161ee0e4f123740b3d72463
             &times;10<sup>{multiplier}</sup>
           </span>
         ) : (
           <span>{""}</span>
         )}
         {tolerance ? (
-<<<<<<< HEAD
           <span className={`${getColor(tolerance)} text-center`}>
-=======
-          <span className={`${getColor('', tolerance)} text-center`}>
->>>>>>> 0b687fc40cc46eb80161ee0e4f123740b3d72463
             &plusmn;{tolerance}%
           </span>
         ) : (
@@ -355,11 +323,7 @@ export default function Resistance() {
   }
 
   return (
-<<<<<<< HEAD
     <div className="m-auto h-screen max-w-md">
-=======
-    <div className="m-auto min-h-screen max-w-md">
->>>>>>> 0b687fc40cc46eb80161ee0e4f123740b3d72463
       <h2 className="flex flex-row justify-center border-b border-b-gray-300 text-3xl/loose font-medium">
         Resistance calculator
       </h2>
