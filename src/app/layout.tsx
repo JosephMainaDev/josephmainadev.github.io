@@ -1,4 +1,6 @@
 import './globals.css'
+import Header from '@/components/header'
+import Footer from '@/components/footer'
 
 export const metadata = {
   title: 'Tools created by Joseph Maina',
@@ -12,7 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }

@@ -30,7 +30,13 @@ git clone https://github.com/mainadotkim/mainadotkim.github.io.git your-dir
 
 2. `cd` to the `your-dir` directory
 
-3. Next, run the development server:
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. And, run the development server:
 
 ```bash
 npm run dev
@@ -40,7 +46,7 @@ yarn dev
 pnpm dev
 ```
 
-4. Happy coding!
+5. Happy coding!
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
