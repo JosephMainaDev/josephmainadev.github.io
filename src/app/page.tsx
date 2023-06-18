@@ -43,8 +43,7 @@ export default function Home() {
           <p>Text from the image. I have forgotten what it is called lol!</p>
         </div>
         <div>
-          <h2>Image for the post</h2>
-          <p>Text from the image. I have forgotten what it is called lol!</p>
+          <p>See more posts Link</p>
         </div>
       </div>
       <div>
@@ -54,6 +53,10 @@ export default function Home() {
           <div>This will be a small text block giving a few details about the project. The entire card is a link to GitHub where the code is hosted/readme.</div>
           <div>List of tech used for this project.</div>
         </div>
+      </div>
+      <div>
+        <h2>Get in touch with me</h2>
+        <p>Links to social media, email, GitHub and LinkedIn</p>
       </div>
     </main>
   )
