@@ -5,6 +5,7 @@ export default function Socials() {
         className="group -m-1 p-1"
         aria-label="Follow Joseph Maina on Twitter"
         href="https://twitter.com/JosephMainaDev"
+        target="_blank"
       >
         <svg
           viewBox="0 0 24 24"
@@ -18,6 +19,7 @@ export default function Socials() {
         className="group -m-1 p-1"
         aria-label="Follow Joseph Maina on GitHub"
         href="https://github.com/JosephMainaDev"
+        target="_blank"
       >
         <svg
           viewBox="0 0 24 24"
@@ -35,6 +37,7 @@ export default function Socials() {
         className="group -m-1 p-1"
         aria-label="Follow Joseph Maina on LinkedIn"
         href="https://linkedin.com/in/josephkmaina"
+        target="_blank"
       >
         <svg
           viewBox="0 0 24 24"

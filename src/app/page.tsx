@@ -1,9 +1,10 @@
-import Socials from "@/components/socials";
+import Socials from "@/components/socials"
+import PortfolioItem from "@/components/portfolio-item";
 
 export default function Home() {
   return (
     <main>
-      <div className="mx-auto flex min-h-screen max-w-2xl flex-row items-center md:p-6">
+      <div className="mx-auto flex min-h-screen max-w-2xl flex-row items-center px-6 lg:px-10">
         <div className="flex flex-col gap-y-6">
           <h1 className="text-5xl font-extrabold">
             Software Engineer & Educator.
@@ -55,15 +56,9 @@ export default function Home() {
       </div>
 
       <div className="min-h-screen w-full bg-orange-100" id="projects">
-        <h2 className="text-base font-semibold text-orange-500">Projects</h2>
-        <div>
-          <div>This will be a screenshot of the project.</div>
-          <div>
-            This will be a small text block giving a few details about the
-            project. The entire card is a link to GitHub where the code is
-            hosted/readme.
-          </div>
-          <div>List of tech used for this project.</div>
+        <div className="mx-auto max-w-7xl px-6 lg:px-10">
+          <h2 className="text-base font-semibold text-orange-500 pt-10">Projects</h2>
+          <PortfolioItem />
         </div>
       </div>
 
