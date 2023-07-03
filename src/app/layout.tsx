@@ -3,8 +3,8 @@ import Header from '@/components/header'
 import Footer from '@/components/footer'
 
 export const metadata = {
-  title: 'Tools created by Joseph Maina',
-  description: 'Created with Next.js 13',
+  title: 'Portfolio for Joseph Maina',
+  description: 'Created with Next.js 13 and TailwindCSS',
 }
 
 export default function RootLayout({

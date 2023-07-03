@@ -7,7 +7,7 @@ export default function Header() {
         <div className="flex flex-row items-center gap-5">
           <Image
             src="https://avatars.githubusercontent.com/u/15126598?v=4"
-            alt="Picture of Joseph Maina"
+            alt="Photo of Joseph Maina"
             width={100}
             height={100}
             className="h-10 w-10 md:h-12 md:w-12 lg:h-16 lg:w-16 rounded-full"
