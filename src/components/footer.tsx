@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="flex gap-6">
         <Socials />
       </div>
-      <p className="text-sm text-zinc-400">&copy; Joseph Maina 2023. All rights reserved.</p>
+      <p className="text-sm text-zinc-500">&copy; Joseph Maina 2023. All rights reserved.</p>
     </footer>
   )
 }

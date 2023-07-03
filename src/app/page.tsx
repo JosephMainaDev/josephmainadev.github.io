@@ -1,5 +1,4 @@
 import Socials from "@/components/socials"
-import PortfolioItem from "@/components/portfolio-item";
 
 export default function Home() {
   return (
@@ -52,13 +51,6 @@ export default function Home() {
         <div>
           Contribution number THREE plus link to the issue, pull request and
           merge.
-        </div>
-      </div>
-
-      <div className="min-h-screen w-full bg-orange-100" id="projects">
-        <div className="mx-auto max-w-7xl px-6 lg:px-10">
-          <h2 className="text-base font-semibold text-orange-500 pt-10">Projects</h2>
-          <PortfolioItem />
         </div>
       </div>
 

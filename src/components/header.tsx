@@ -18,10 +18,10 @@ export default function Header() {
           </Link>
           <div className="font-medium text-3xl">Joseph Maina</div>
         </div>
-        <div className="flex flex-row gap-4">
-          <Link href="#articles">Articles</Link>
-          <Link href="#projects">Projects</Link>
-          <Link href="#contact">Contact</Link>
+        <div className="flex flex-row gap-4 text-zinc-500">
+          <Link href="#articles" className="hover:text-orange-500">Articles</Link>
+          <Link href="#projects" className="hover:text-orange-500">Projects</Link>
+          <Link href="#contact" className="hover:text-orange-500">Contact</Link>
         </div>
       </div>
     </nav>
