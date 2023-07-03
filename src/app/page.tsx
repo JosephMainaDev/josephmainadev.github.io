@@ -4,19 +4,30 @@ export default function Home() {
   return (
     <main>
       <div className="mx-auto flex min-h-screen max-w-2xl flex-row items-center md:p-6">
-        <div>
+        <div className="flex flex-col gap-y-6">
           <h1 className="text-5xl font-extrabold">
             Software Engineer & Educator.
           </h1>
           <p>
-            I help turn to your to live online. 100s of open source
-            contributions. React, Tailwind CSS and MongoDB
+            Let your ideas come alive. React, Tailwind CSS and MongoDB.
           </p>
 
-          <div className="mt-6 flex gap-6">
+          <div className="flex gap-6 mt-6">
             <Socials />
           </div>
         </div>
+      </div>
+
+      <div id="articles">
+        <h2>Recent articles</h2>
+        <div>
+          These are articles that I have written on Hashnode to get writing opportunities.
+        </div>
+        <ul>
+          <li>This is the first</li>
+          <li>The second article</li>
+          <li>And a third as well</li>
+        </ul>
       </div>
 
       <div>
@@ -43,8 +54,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="min-h-screen w-full bg-orange-300">
-        <h2>Projects</h2>
+      <div className="min-h-screen w-full bg-orange-100" id="projects">
+        <h2 className="text-base font-semibold text-orange-500">Projects</h2>
         <div>
           <div>This will be a screenshot of the project.</div>
           <div>
@@ -56,7 +67,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
+      <div id="contact">
         <h2 className="text-lg font-bold">Get in touch with me</h2>
         <p>Links to social media, email, GitHub and LinkedIn</p>
       </div>
